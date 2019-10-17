@@ -84,20 +84,9 @@ def adding_matz
         }
      }
      
-     programmer_hash.delete(:grace_hopper)
-     programmer_hash.delete(:alan_kay)
-     programmer_hash.delete(:dennis_ritchie)
-
     programmer_hash[:yukihiro_matsumoto] = {}
     programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
     programmer_hash[:yukihiro_matsumoto][:languages] ="LISP", "C"
-
-    programmer_hash[:grace_hopper][:known_for] = "COBOL"
-    programmer_hash[:grace_hopper][:languages] = "COBOL", "FORTRAN"
-    programmer_hash[:alan_kay][:known_for] = "Object Orientation"
-    programmer_hash[:alan_kay][:languages] = "Smalltalk", "LISP"
-    programmer_hash[:dennis_ritchie][:known_for] = "Unix"
-    programmer_hash[:dennis_ritchier][:languages] = "C"
 
     programmer_hash
 end
