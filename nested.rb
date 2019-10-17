@@ -16,7 +16,7 @@ def hopper
         }
      }
 
-programmer_hash.delete
+programmer_hash.delete(:alan_kay)
 end
 
 def alan_kay_is_known_for
