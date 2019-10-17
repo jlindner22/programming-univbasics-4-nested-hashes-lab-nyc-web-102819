@@ -89,6 +89,7 @@ def adding_matz
      programmer_hash.delete(:dennis_ritchie)
 
     programmer_hash[:yukihiro_matsumoto] = {}
+    
     [:known_for] = "Ruby"
     programmer_hash[:yukihiro_matsumoto][:languages] ="LISP", "C"
 
